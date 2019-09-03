@@ -1,3 +1,4 @@
 /Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir
+/Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructuresLib.dir

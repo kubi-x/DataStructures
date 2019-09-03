@@ -6,57 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/kubilaykarapinar/CLionProjects/DataStructures/DoublyLinkedList/DLLNode.cpp
-DLLNode.h
-/Users/kubilaykarapinar/CLionProjects/DataStructures/DoublyLinkedList/DLLNode.h
+/Users/kubilaykarapinar/CLionProjects/DataStructures/Stack/SNode.cpp
+SNode.h
+/Users/kubilaykarapinar/CLionProjects/DataStructures/Stack/SNode.h
 
-/Users/kubilaykarapinar/CLionProjects/DataStructures/DoublyLinkedList/DLLNode.h
+/Users/kubilaykarapinar/CLionProjects/DataStructures/Stack/SNode.h
 
-/Users/kubilaykarapinar/CLionProjects/DataStructures/DoublyLinkedList/DoublyLinkedList.cpp
-iostream
--
-DoublyLinkedList.h
-/Users/kubilaykarapinar/CLionProjects/DataStructures/DoublyLinkedList/DoublyLinkedList.h
+/Users/kubilaykarapinar/CLionProjects/DataStructures/Stack/Stack.cpp
+Stack.h
+/Users/kubilaykarapinar/CLionProjects/DataStructures/Stack/Stack.h
 
-/Users/kubilaykarapinar/CLionProjects/DataStructures/DoublyLinkedList/DoublyLinkedList.h
-DLLNode.h
-/Users/kubilaykarapinar/CLionProjects/DataStructures/DoublyLinkedList/DLLNode.h
-
-/Users/kubilaykarapinar/CLionProjects/DataStructures/LinkedList/LLNode.cpp
-LLNode.h
-/Users/kubilaykarapinar/CLionProjects/DataStructures/LinkedList/LLNode.h
-
-/Users/kubilaykarapinar/CLionProjects/DataStructures/LinkedList/LLNode.h
-
-/Users/kubilaykarapinar/CLionProjects/DataStructures/LinkedList/LinkedList.cpp
-iostream
--
-stdexcept
--
-LinkedList.h
-/Users/kubilaykarapinar/CLionProjects/DataStructures/LinkedList/LinkedList.h
-
-/Users/kubilaykarapinar/CLionProjects/DataStructures/LinkedList/LinkedList.h
-LLNode.h
-/Users/kubilaykarapinar/CLionProjects/DataStructures/LinkedList/LLNode.h
-
-/Users/kubilaykarapinar/CLionProjects/DataStructures/main.cpp
-iostream
--
-LinkedList/LinkedList.h
-/Users/kubilaykarapinar/CLionProjects/DataStructures/LinkedList/LinkedList.h
-LinkedList/LinkedList.cpp
-/Users/kubilaykarapinar/CLionProjects/DataStructures/LinkedList/LinkedList.cpp
-LinkedList/LLNode.h
-/Users/kubilaykarapinar/CLionProjects/DataStructures/LinkedList/LLNode.h
-LinkedList/LLNode.cpp
-/Users/kubilaykarapinar/CLionProjects/DataStructures/LinkedList/LLNode.cpp
-DoublyLinkedList/DoublyLinkedList.h
-/Users/kubilaykarapinar/CLionProjects/DataStructures/DoublyLinkedList/DoublyLinkedList.h
-DoublyLinkedList/DoublyLinkedList.cpp
-/Users/kubilaykarapinar/CLionProjects/DataStructures/DoublyLinkedList/DoublyLinkedList.cpp
-DoublyLinkedList/DLLNode.h
-/Users/kubilaykarapinar/CLionProjects/DataStructures/DoublyLinkedList/DLLNode.h
-DoublyLinkedList/DLLNode.cpp
-/Users/kubilaykarapinar/CLionProjects/DataStructures/DoublyLinkedList/DLLNode.cpp
+/Users/kubilaykarapinar/CLionProjects/DataStructures/Stack/Stack.h
 

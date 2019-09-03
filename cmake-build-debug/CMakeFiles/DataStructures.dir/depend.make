@@ -15,6 +15,12 @@ CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.o: ../LinkedList/LLNode.
 CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.o: ../LinkedList/LinkedList.cpp
 CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.o: ../LinkedList/LinkedList.h
 
+CMakeFiles/DataStructures.dir/Stack/SNode.cpp.o: ../Stack/SNode.cpp
+CMakeFiles/DataStructures.dir/Stack/SNode.cpp.o: ../Stack/SNode.h
+
+CMakeFiles/DataStructures.dir/Stack/Stack.cpp.o: ../Stack/Stack.cpp
+CMakeFiles/DataStructures.dir/Stack/Stack.cpp.o: ../Stack/Stack.h
+
 CMakeFiles/DataStructures.dir/main.cpp.o: ../DoublyLinkedList/DLLNode.cpp
 CMakeFiles/DataStructures.dir/main.cpp.o: ../DoublyLinkedList/DLLNode.h
 CMakeFiles/DataStructures.dir/main.cpp.o: ../DoublyLinkedList/DoublyLinkedList.cpp

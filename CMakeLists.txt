@@ -3,6 +3,13 @@ project(DataStructures)
 
 set(CMAKE_CXX_STANDARD 14)
 
+add_library(DataStructuresLib LinkedList/LinkedList.h LinkedList/LinkedList.cpp LinkedList/LLNode.cpp LinkedList/LLNode.h
+        DoublyLinkedList/DoublyLinkedList.cpp DoublyLinkedList/DoublyLinkedList.h DoublyLinkedList/DLLNode.cpp DoublyLinkedList/DLLNode.h
+        Stack/Stack.cpp Stack/Stack.h Stack/SNode.cpp Stack/SNode.h)
+
 add_executable(DataStructures main.cpp
         LinkedList/LinkedList.h LinkedList/LinkedList.cpp LinkedList/LLNode.cpp LinkedList/LLNode.h
-        DoublyLinkedList/DoublyLinkedList.cpp DoublyLinkedList/DoublyLinkedList.h DoublyLinkedList/DLLNode.cpp DoublyLinkedList/DLLNode.h)
+        DoublyLinkedList/DoublyLinkedList.cpp DoublyLinkedList/DoublyLinkedList.h DoublyLinkedList/DLLNode.cpp DoublyLinkedList/DLLNode.h
+        Stack/Stack.cpp Stack/Stack.h Stack/SNode.cpp Stack/SNode.h)
+
+

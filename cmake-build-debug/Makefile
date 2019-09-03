@@ -123,6 +123,19 @@ DataStructures/fast:
 	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/build
 .PHONY : DataStructures/fast
 
+#=============================================================================
+# Target rules for targets named DataStructuresLib
+
+# Build rule for target.
+DataStructuresLib: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 DataStructuresLib
+.PHONY : DataStructuresLib
+
+# fast build rule for target.
+DataStructuresLib/fast:
+	$(MAKE) -f CMakeFiles/DataStructuresLib.dir/build.make CMakeFiles/DataStructuresLib.dir/build
+.PHONY : DataStructuresLib/fast
+
 DoublyLinkedList/DLLNode.o: DoublyLinkedList/DLLNode.cpp.o
 
 .PHONY : DoublyLinkedList/DLLNode.o
@@ -130,6 +143,7 @@ DoublyLinkedList/DLLNode.o: DoublyLinkedList/DLLNode.cpp.o
 # target to build an object file
 DoublyLinkedList/DLLNode.cpp.o:
 	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/DoublyLinkedList/DLLNode.cpp.o
+	$(MAKE) -f CMakeFiles/DataStructuresLib.dir/build.make CMakeFiles/DataStructuresLib.dir/DoublyLinkedList/DLLNode.cpp.o
 .PHONY : DoublyLinkedList/DLLNode.cpp.o
 
 DoublyLinkedList/DLLNode.i: DoublyLinkedList/DLLNode.cpp.i
@@ -139,6 +153,7 @@ DoublyLinkedList/DLLNode.i: DoublyLinkedList/DLLNode.cpp.i
 # target to preprocess a source file
 DoublyLinkedList/DLLNode.cpp.i:
 	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/DoublyLinkedList/DLLNode.cpp.i
+	$(MAKE) -f CMakeFiles/DataStructuresLib.dir/build.make CMakeFiles/DataStructuresLib.dir/DoublyLinkedList/DLLNode.cpp.i
 .PHONY : DoublyLinkedList/DLLNode.cpp.i
 
 DoublyLinkedList/DLLNode.s: DoublyLinkedList/DLLNode.cpp.s
@@ -148,6 +163,7 @@ DoublyLinkedList/DLLNode.s: DoublyLinkedList/DLLNode.cpp.s
 # target to generate assembly for a file
 DoublyLinkedList/DLLNode.cpp.s:
 	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/DoublyLinkedList/DLLNode.cpp.s
+	$(MAKE) -f CMakeFiles/DataStructuresLib.dir/build.make CMakeFiles/DataStructuresLib.dir/DoublyLinkedList/DLLNode.cpp.s
 .PHONY : DoublyLinkedList/DLLNode.cpp.s
 
 DoublyLinkedList/DoublyLinkedList.o: DoublyLinkedList/DoublyLinkedList.cpp.o
@@ -157,6 +173,7 @@ DoublyLinkedList/DoublyLinkedList.o: DoublyLinkedList/DoublyLinkedList.cpp.o
 # target to build an object file
 DoublyLinkedList/DoublyLinkedList.cpp.o:
 	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/DoublyLinkedList/DoublyLinkedList.cpp.o
+	$(MAKE) -f CMakeFiles/DataStructuresLib.dir/build.make CMakeFiles/DataStructuresLib.dir/DoublyLinkedList/DoublyLinkedList.cpp.o
 .PHONY : DoublyLinkedList/DoublyLinkedList.cpp.o
 
 DoublyLinkedList/DoublyLinkedList.i: DoublyLinkedList/DoublyLinkedList.cpp.i
@@ -166,6 +183,7 @@ DoublyLinkedList/DoublyLinkedList.i: DoublyLinkedList/DoublyLinkedList.cpp.i
 # target to preprocess a source file
 DoublyLinkedList/DoublyLinkedList.cpp.i:
 	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/DoublyLinkedList/DoublyLinkedList.cpp.i
+	$(MAKE) -f CMakeFiles/DataStructuresLib.dir/build.make CMakeFiles/DataStructuresLib.dir/DoublyLinkedList/DoublyLinkedList.cpp.i
 .PHONY : DoublyLinkedList/DoublyLinkedList.cpp.i
 
 DoublyLinkedList/DoublyLinkedList.s: DoublyLinkedList/DoublyLinkedList.cpp.s
@@ -175,6 +193,7 @@ DoublyLinkedList/DoublyLinkedList.s: DoublyLinkedList/DoublyLinkedList.cpp.s
 # target to generate assembly for a file
 DoublyLinkedList/DoublyLinkedList.cpp.s:
 	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/DoublyLinkedList/DoublyLinkedList.cpp.s
+	$(MAKE) -f CMakeFiles/DataStructuresLib.dir/build.make CMakeFiles/DataStructuresLib.dir/DoublyLinkedList/DoublyLinkedList.cpp.s
 .PHONY : DoublyLinkedList/DoublyLinkedList.cpp.s
 
 LinkedList/LLNode.o: LinkedList/LLNode.cpp.o
@@ -184,6 +203,7 @@ LinkedList/LLNode.o: LinkedList/LLNode.cpp.o
 # target to build an object file
 LinkedList/LLNode.cpp.o:
 	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/LinkedList/LLNode.cpp.o
+	$(MAKE) -f CMakeFiles/DataStructuresLib.dir/build.make CMakeFiles/DataStructuresLib.dir/LinkedList/LLNode.cpp.o
 .PHONY : LinkedList/LLNode.cpp.o
 
 LinkedList/LLNode.i: LinkedList/LLNode.cpp.i
@@ -193,6 +213,7 @@ LinkedList/LLNode.i: LinkedList/LLNode.cpp.i
 # target to preprocess a source file
 LinkedList/LLNode.cpp.i:
 	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/LinkedList/LLNode.cpp.i
+	$(MAKE) -f CMakeFiles/DataStructuresLib.dir/build.make CMakeFiles/DataStructuresLib.dir/LinkedList/LLNode.cpp.i
 .PHONY : LinkedList/LLNode.cpp.i
 
 LinkedList/LLNode.s: LinkedList/LLNode.cpp.s
@@ -202,6 +223,7 @@ LinkedList/LLNode.s: LinkedList/LLNode.cpp.s
 # target to generate assembly for a file
 LinkedList/LLNode.cpp.s:
 	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/LinkedList/LLNode.cpp.s
+	$(MAKE) -f CMakeFiles/DataStructuresLib.dir/build.make CMakeFiles/DataStructuresLib.dir/LinkedList/LLNode.cpp.s
 .PHONY : LinkedList/LLNode.cpp.s
 
 LinkedList/LinkedList.o: LinkedList/LinkedList.cpp.o
@@ -211,6 +233,7 @@ LinkedList/LinkedList.o: LinkedList/LinkedList.cpp.o
 # target to build an object file
 LinkedList/LinkedList.cpp.o:
 	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.o
+	$(MAKE) -f CMakeFiles/DataStructuresLib.dir/build.make CMakeFiles/DataStructuresLib.dir/LinkedList/LinkedList.cpp.o
 .PHONY : LinkedList/LinkedList.cpp.o
 
 LinkedList/LinkedList.i: LinkedList/LinkedList.cpp.i
@@ -220,6 +243,7 @@ LinkedList/LinkedList.i: LinkedList/LinkedList.cpp.i
 # target to preprocess a source file
 LinkedList/LinkedList.cpp.i:
 	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.i
+	$(MAKE) -f CMakeFiles/DataStructuresLib.dir/build.make CMakeFiles/DataStructuresLib.dir/LinkedList/LinkedList.cpp.i
 .PHONY : LinkedList/LinkedList.cpp.i
 
 LinkedList/LinkedList.s: LinkedList/LinkedList.cpp.s
@@ -229,7 +253,68 @@ LinkedList/LinkedList.s: LinkedList/LinkedList.cpp.s
 # target to generate assembly for a file
 LinkedList/LinkedList.cpp.s:
 	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.s
+	$(MAKE) -f CMakeFiles/DataStructuresLib.dir/build.make CMakeFiles/DataStructuresLib.dir/LinkedList/LinkedList.cpp.s
 .PHONY : LinkedList/LinkedList.cpp.s
+
+Stack/SNode.o: Stack/SNode.cpp.o
+
+.PHONY : Stack/SNode.o
+
+# target to build an object file
+Stack/SNode.cpp.o:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/Stack/SNode.cpp.o
+	$(MAKE) -f CMakeFiles/DataStructuresLib.dir/build.make CMakeFiles/DataStructuresLib.dir/Stack/SNode.cpp.o
+.PHONY : Stack/SNode.cpp.o
+
+Stack/SNode.i: Stack/SNode.cpp.i
+
+.PHONY : Stack/SNode.i
+
+# target to preprocess a source file
+Stack/SNode.cpp.i:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/Stack/SNode.cpp.i
+	$(MAKE) -f CMakeFiles/DataStructuresLib.dir/build.make CMakeFiles/DataStructuresLib.dir/Stack/SNode.cpp.i
+.PHONY : Stack/SNode.cpp.i
+
+Stack/SNode.s: Stack/SNode.cpp.s
+
+.PHONY : Stack/SNode.s
+
+# target to generate assembly for a file
+Stack/SNode.cpp.s:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/Stack/SNode.cpp.s
+	$(MAKE) -f CMakeFiles/DataStructuresLib.dir/build.make CMakeFiles/DataStructuresLib.dir/Stack/SNode.cpp.s
+.PHONY : Stack/SNode.cpp.s
+
+Stack/Stack.o: Stack/Stack.cpp.o
+
+.PHONY : Stack/Stack.o
+
+# target to build an object file
+Stack/Stack.cpp.o:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/Stack/Stack.cpp.o
+	$(MAKE) -f CMakeFiles/DataStructuresLib.dir/build.make CMakeFiles/DataStructuresLib.dir/Stack/Stack.cpp.o
+.PHONY : Stack/Stack.cpp.o
+
+Stack/Stack.i: Stack/Stack.cpp.i
+
+.PHONY : Stack/Stack.i
+
+# target to preprocess a source file
+Stack/Stack.cpp.i:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/Stack/Stack.cpp.i
+	$(MAKE) -f CMakeFiles/DataStructuresLib.dir/build.make CMakeFiles/DataStructuresLib.dir/Stack/Stack.cpp.i
+.PHONY : Stack/Stack.cpp.i
+
+Stack/Stack.s: Stack/Stack.cpp.s
+
+.PHONY : Stack/Stack.s
+
+# target to generate assembly for a file
+Stack/Stack.cpp.s:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/Stack/Stack.cpp.s
+	$(MAKE) -f CMakeFiles/DataStructuresLib.dir/build.make CMakeFiles/DataStructuresLib.dir/Stack/Stack.cpp.s
+.PHONY : Stack/Stack.cpp.s
 
 main.o: main.cpp.o
 
@@ -267,6 +352,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... DataStructures"
+	@echo "... DataStructuresLib"
 	@echo "... DoublyLinkedList/DLLNode.o"
 	@echo "... DoublyLinkedList/DLLNode.i"
 	@echo "... DoublyLinkedList/DLLNode.s"
@@ -279,6 +365,12 @@ help:
 	@echo "... LinkedList/LinkedList.o"
 	@echo "... LinkedList/LinkedList.i"
 	@echo "... LinkedList/LinkedList.s"
+	@echo "... Stack/SNode.o"
+	@echo "... Stack/SNode.i"
+	@echo "... Stack/SNode.s"
+	@echo "... Stack/Stack.o"
+	@echo "... Stack/Stack.i"
+	@echo "... Stack/Stack.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

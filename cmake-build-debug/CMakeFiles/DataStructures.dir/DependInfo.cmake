@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/kubilaykarapinar/CLionProjects/DataStructures/DoublyLinkedList/DoublyLinkedList.cpp" "/Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/DoublyLinkedList/DoublyLinkedList.cpp.o"
   "/Users/kubilaykarapinar/CLionProjects/DataStructures/LinkedList/LLNode.cpp" "/Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/LinkedList/LLNode.cpp.o"
   "/Users/kubilaykarapinar/CLionProjects/DataStructures/LinkedList/LinkedList.cpp" "/Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.o"
+  "/Users/kubilaykarapinar/CLionProjects/DataStructures/Stack/SNode.cpp" "/Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/Stack/SNode.cpp.o"
+  "/Users/kubilaykarapinar/CLionProjects/DataStructures/Stack/Stack.cpp" "/Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/Stack/Stack.cpp.o"
   "/Users/kubilaykarapinar/CLionProjects/DataStructures/main.cpp" "/Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

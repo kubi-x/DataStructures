@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/DataStructures.dir/LinkedList/LLNode.cpp.o"
   "CMakeFiles/DataStructures.dir/DoublyLinkedList/DoublyLinkedList.cpp.o"
   "CMakeFiles/DataStructures.dir/DoublyLinkedList/DLLNode.cpp.o"
+  "CMakeFiles/DataStructures.dir/Stack/Stack.cpp.o"
+  "CMakeFiles/DataStructures.dir/Stack/SNode.cpp.o"
   "DataStructures.pdb"
   "DataStructures"
 )
