@@ -51,6 +51,10 @@ stack/Stack.h
 /Users/kubilaykarapinar/CLionProjects/DataStructures/stack/Stack.h
 stack/Stack.cpp
 /Users/kubilaykarapinar/CLionProjects/DataStructures/stack/Stack.cpp
+queue/Queue.h
+/Users/kubilaykarapinar/CLionProjects/DataStructures/queue/Queue.h
+queue/Queue.cpp
+/Users/kubilaykarapinar/CLionProjects/DataStructures/queue/Queue.cpp
 
 /Users/kubilaykarapinar/CLionProjects/DataStructures/nodes/NodeOne.cpp
 NodeOne.h
@@ -62,6 +66,16 @@ NodeOne.h
 NodeZero.h
 /Users/kubilaykarapinar/CLionProjects/DataStructures/nodes/NodeZero.h
 
+/Users/kubilaykarapinar/CLionProjects/DataStructures/nodes/NodeZero.h
+
+/Users/kubilaykarapinar/CLionProjects/DataStructures/queue/Queue.cpp
+iostream
+-
+Queue.h
+/Users/kubilaykarapinar/CLionProjects/DataStructures/queue/Queue.h
+
+/Users/kubilaykarapinar/CLionProjects/DataStructures/queue/Queue.h
+../nodes/NodeZero.h
 /Users/kubilaykarapinar/CLionProjects/DataStructures/nodes/NodeZero.h
 
 /Users/kubilaykarapinar/CLionProjects/DataStructures/stack/Stack.cpp

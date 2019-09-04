@@ -18,12 +18,15 @@ CMakeFiles/DataStructures.dir/main.cpp.o: ../nodes/NodeOne.cpp
 CMakeFiles/DataStructures.dir/main.cpp.o: ../nodes/NodeOne.h
 CMakeFiles/DataStructures.dir/main.cpp.o: ../nodes/NodeZero.cpp
 CMakeFiles/DataStructures.dir/main.cpp.o: ../nodes/NodeZero.h
+CMakeFiles/DataStructures.dir/main.cpp.o: ../queue/Queue.cpp
+CMakeFiles/DataStructures.dir/main.cpp.o: ../queue/Queue.h
 CMakeFiles/DataStructures.dir/main.cpp.o: ../stack/Stack.cpp
 CMakeFiles/DataStructures.dir/main.cpp.o: ../stack/Stack.h
 
 CMakeFiles/DataStructures.dir/nodes/NodeOne.cpp.o: ../nodes/NodeOne.cpp
 CMakeFiles/DataStructures.dir/nodes/NodeOne.cpp.o: ../nodes/NodeOne.h
 
+CMakeFiles/DataStructures.dir/queue/Queue.cpp.o: ../nodes/NodeZero.h
 CMakeFiles/DataStructures.dir/queue/Queue.cpp.o: ../queue/Queue.cpp
 CMakeFiles/DataStructures.dir/queue/Queue.cpp.o: ../queue/Queue.h
 

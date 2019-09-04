@@ -9,6 +9,8 @@
 #include "doublylinkedlist/DoublyLinkedList.cpp"
 #include "stack/Stack.h"
 #include "stack/Stack.cpp"
+#include "queue/Queue.h"
+#include "queue/Queue.cpp"
 
 int main() {
 
@@ -72,9 +74,15 @@ int main() {
     stack.pop();
     stack.pop();
     stack.pop();
-    stack.pop();
-    stack.pop();
 
-    stack.print();
+    Queue<int> queue = Queue<int>();
+    queue.push(1);
+    queue.push(2);
+    queue.push(3);
+    queue.push(4);
+
+    int x = queue.pop()->getData();
+
+
     return 0;
 }
