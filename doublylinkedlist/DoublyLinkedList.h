@@ -2,17 +2,18 @@
 // Created by Kubilay Karapinar on 03.09.19.
 //
 
-#ifndef DATASTRUCTURES_LINKEDLIST_H
-#define DATASTRUCTURES_LINKEDLIST_H
+#ifndef DATASTRUCTURES_DOUBLYLINKEDLIST_H
+#define DATASTRUCTURES_DOUBLYLINKEDLIST_H
 
-#include "LLNode.h"
+
+#include "../nodes/NodeOne.h"
 
 template<class T>
-class LinkedList {
+class DoublyLinkedList {
 public:
-    LinkedList();
+    DoublyLinkedList();
 
-    ~LinkedList();
+    ~DoublyLinkedList();
 
     void insertEnd(T elem);
 
@@ -32,23 +33,19 @@ public:
 
     void replaceWithIndex(int index, T elemReplace);
 
-    LLNode<T> *getNode(int index);
+    NodeOne<T> *getNode(int index);
 
-    LLNode<T> *getHead();
+    NodeOne<T> *getHead();
 
-    LLNode<T> *getTail();
+    NodeOne<T> *getTail();
 
     int getSize();
 
-
 private:
-    void printTraverse(LLNode<T> *node);
-
-    void reverse(LLNode<T> *node);
-
-    LLNode<T> *head;
-    LLNode<T> *tail;
+    NodeOne<T> *head;
+    NodeOne<T> *tail;
     int size;
 };
 
-#endif //DATASTRUCTURES_LINKEDLIST_H
+
+#endif //FUCK_DOUBLYLINKEDLIST_H

@@ -14,7 +14,7 @@ DoublyLinkedList<T>::DoublyLinkedList() {
 
 template<class T>
 void DoublyLinkedList<T>::insertEnd(T elem) {
-    DLLNode<T> *tmp = new DLLNode<T>(elem);
+    NodeOne<T> *tmp = new NodeOne<T>(elem);
     if (this->head == nullptr) {
         this->head = tmp;
         this->tail = tmp;
@@ -28,7 +28,7 @@ void DoublyLinkedList<T>::insertEnd(T elem) {
 
 template<class T>
 void DoublyLinkedList<T>::insertBeg(T elem) {
-    DLLNode<T> *tmp = new DLLNode<T>(elem);
+    NodeOne<T> *tmp = new NodeOne<T>(elem);
     if (this->head == nullptr) {
         this->head = tmp;
         this->tail = tmp;
@@ -42,11 +42,11 @@ void DoublyLinkedList<T>::insertBeg(T elem) {
 
 template<class T>
 void DoublyLinkedList<T>::removeWithValue(T elem) {
-    DLLNode<T> *current = this->head;
+    NodeOne<T> *current = this->head;
     while (current != nullptr) {
 
         if (current->getData() == elem) {
-            DLLNode<T> *temp = current;
+            NodeOne<T> *temp = current;
             if (current->getPrev() == nullptr) {
                 this->head = this->head->getNext();
                 current = this->head;
@@ -66,7 +66,7 @@ void DoublyLinkedList<T>::removeWithValue(T elem) {
 template<class T>
 void DoublyLinkedList<T>::removeWithIndex(int index) {
     if (index < this->size) {
-        DLLNode<T> *current = this->head;
+        NodeOne<T> *current = this->head;
 
         for (int i = 0; i < index; i++) {
             current = current->getNext();
@@ -93,7 +93,7 @@ int DoublyLinkedList<T>::getSize() {
 
 template<class T>
 void DoublyLinkedList<T>::print() {
-    DLLNode<T> *current = this->head;
+    NodeOne<T> *current = this->head;
     while (current != nullptr) {
         std::cout << "Value: " << (*current).getData() << std::endl;
         current = current->getNext();
@@ -102,7 +102,7 @@ void DoublyLinkedList<T>::print() {
 
 template<class T>
 void DoublyLinkedList<T>::printTraverse() {
-    DLLNode<T> *current = this->tail;
+    NodeOne<T> *current = this->tail;
     while (current != nullptr) {
         std::cout << "Value: " << (*current).getData() << std::endl;
         current = current->getPrev();
@@ -111,36 +111,36 @@ void DoublyLinkedList<T>::printTraverse() {
 
 template<class T>
 DoublyLinkedList<T>::~DoublyLinkedList() {
-    DLLNode<T> *current = this->head;
+    NodeOne<T> *current = this->head;
 
     while (current != nullptr) {
-        DLLNode<T> *next = current->getNext();
+        NodeOne<T> *next = current->getNext();
         delete current;
         current = next;
     }
 }
 
 template<class T>
-DLLNode<T> *DoublyLinkedList<T>::getHead() {
+NodeOne<T> *DoublyLinkedList<T>::getHead() {
     return this->head;
 }
 
 template<class T>
-DLLNode<T> *DoublyLinkedList<T>::getTail() {
+NodeOne<T> *DoublyLinkedList<T>::getTail() {
     return this->tail;
 }
 
 template<class T>
 void DoublyLinkedList<T>::reverse() {
     if (this->head != nullptr) {
-        DLLNode<T> *current = this->head;
+        NodeOne<T> *current = this->head;
         while (current != nullptr) {
-            DLLNode<T> *tmp = current->getNext();
+            NodeOne<T> *tmp = current->getNext();
             current->setNext(current->getPrev());
             current->setPrev(tmp);
             current = tmp;
         }
-        DLLNode<T> *tmp = this->head;
+        NodeOne<T> *tmp = this->head;
         this->head = this->tail;
         this->tail = tmp;
     }
@@ -148,7 +148,7 @@ void DoublyLinkedList<T>::reverse() {
 
 template<class T>
 void DoublyLinkedList<T>::replaceWithValue(T elem, T elemReplace) {
-    DLLNode<T> *current = this->head;
+    NodeOne<T> *current = this->head;
     while (current != nullptr) {
         if (current->getData() == elem) {
             current->setData(elemReplace);
@@ -160,7 +160,7 @@ void DoublyLinkedList<T>::replaceWithValue(T elem, T elemReplace) {
 template<class T>
 void DoublyLinkedList<T>::replaceWithIndex(int index, T elemReplace) {
     if (index < this->size) {
-        DLLNode<T> *current = this->head;
+        NodeOne<T> *current = this->head;
         for (int i = 0; i < index; i++) {
             current = current->getNext();
         }
@@ -171,9 +171,9 @@ void DoublyLinkedList<T>::replaceWithIndex(int index, T elemReplace) {
 }
 
 template<class T>
-DLLNode<T> *DoublyLinkedList<T>::getNode(int index) {
+NodeOne<T> *DoublyLinkedList<T>::getNode(int index) {
     if (index < this->size) {
-        DLLNode<T> *current = this->head;
+        NodeOne<T> *current = this->head;
         for (int i = 0; i < index; i++) {
             current = current->getNext();
         }

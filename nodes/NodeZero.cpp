@@ -1,37 +1,40 @@
 //
-// Created by Kubilay Karapinar on 04.09.19.
+// Created by Kubilay Karapinar on 03.09.19.
 //
 
-#include "SNode.h"
+#include "NodeZero.h"
 
 template<class T>
-SNode<T>::SNode(T data) {
+NodeZero<T>::NodeZero(T data) {
     this->data = data;
     this->next = nullptr;
 }
 
 template<class T>
-SNode<T>::SNode(const SNode<T> &node) {
+NodeZero<T>::NodeZero(const NodeZero<T> &node) {
     this->data = node.data;
     this->next = node.next;
 }
 
+
 template<class T>
-void SNode<T>::setNext(SNode *node) {
+void NodeZero<T>::setNext(NodeZero *node) {
     this->next = node;
+
 }
 
 template<class T>
-SNode<T> *SNode<T>::getNext() {
+NodeZero<T> *NodeZero<T>::getNext() {
     return this->next;
 }
 
 template<class T>
-T SNode<T>::getData() {
+T NodeZero<T>::getData() {
     return this->data;
 }
 
 template<class T>
-void SNode<T>::setData(T data) {
+void NodeZero<T>::setData(T data) {
     this->data = data;
 }
+

@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-bu
 CMakeFiles/DataStructures.dir/all:
 	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/depend
 	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target DataStructures"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target DataStructures"
 .PHONY : CMakeFiles/DataStructures.dir/all
 
 # Include target in all.
@@ -81,7 +81,7 @@ all: CMakeFiles/DataStructures.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/DataStructures.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/DataStructures.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/DataStructures.dir/rule
@@ -98,43 +98,6 @@ CMakeFiles/DataStructures.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/DataStructures.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/DataStructuresLib.dir
-
-# All Build rule for target.
-CMakeFiles/DataStructuresLib.dir/all:
-	$(MAKE) -f CMakeFiles/DataStructuresLib.dir/build.make CMakeFiles/DataStructuresLib.dir/depend
-	$(MAKE) -f CMakeFiles/DataStructuresLib.dir/build.make CMakeFiles/DataStructuresLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles --progress-num=9,10,11,12,13,14,15 "Built target DataStructuresLib"
-.PHONY : CMakeFiles/DataStructuresLib.dir/all
-
-# Include target in all.
-all: CMakeFiles/DataStructuresLib.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/DataStructuresLib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles 7
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/DataStructuresLib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/DataStructuresLib.dir/rule
-
-# Convenience name for target.
-DataStructuresLib: CMakeFiles/DataStructuresLib.dir/rule
-
-.PHONY : DataStructuresLib
-
-# clean rule for target.
-CMakeFiles/DataStructuresLib.dir/clean:
-	$(MAKE) -f CMakeFiles/DataStructuresLib.dir/build.make CMakeFiles/DataStructuresLib.dir/clean
-.PHONY : CMakeFiles/DataStructuresLib.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/DataStructuresLib.dir/clean
 
 .PHONY : clean
 

@@ -1,12 +1,14 @@
 #include <iostream>
-#include "LinkedList/LinkedList.h"
-#include "LinkedList/LinkedList.cpp"
-#include "LinkedList/LLNode.h"
-#include "LinkedList/LLNode.cpp"
-#include "DoublyLinkedList/DoublyLinkedList.h"
-#include "DoublyLinkedList/DoublyLinkedList.cpp"
-#include "DoublyLinkedList/DLLNode.h"
-#include "DoublyLinkedList/DLLNode.cpp"
+#include "nodes/NodeZero.h"
+#include "nodes/NodeZero.cpp"
+#include "nodes/NodeOne.h"
+#include "nodes/NodeOne.cpp"
+#include "linkedlist/LinkedList.h"
+#include "linkedlist/LinkedList.cpp"
+#include "doublylinkedlist/DoublyLinkedList.h"
+#include "doublylinkedlist/DoublyLinkedList.cpp"
+#include "stack/Stack.h"
+#include "stack/Stack.cpp"
 
 int main() {
 
@@ -18,16 +20,16 @@ int main() {
     linkedList.insertEnd(7);
     linkedList.insertEnd(8);
     linkedList.insertBeg(3);
-    //linkedList.insertBeg(LLNode<int>(3));
+    //linkedList.insertBeg(NodeZero<int>(3));
     //linkedList.printTraverse();
     linkedList.reverse();
     //linkedList.print();
 
-    //linkedList.removeWithValue(LLNode<int >(5));
-    //linkedList.removeWithValue(LLNode<int >(5));
-    //linkedList.removeWithValue(LLNode<int >(8));
-    //linkedList.removeWithValue(LLNode<int >(7));
-    //linkedList.removeWithValue(LLNode<int >(6));
+    //linkedList.removeWithValue(NodeZero<int >(5));
+    //linkedList.removeWithValue(NodeZero<int >(5));
+    //linkedList.removeWithValue(NodeZero<int >(8));
+    //linkedList.removeWithValue(NodeZero<int >(7));
+    //linkedList.removeWithValue(NodeZero<int >(6));
     /*
     try {
         linkedList.removeWithIndex(7);
@@ -50,16 +52,29 @@ int main() {
 
 
     /*
-    linkedList.removeWithValue(LLNode<int >(5));
-    linkedList.removeWithValue(LLNode<int >(5));
-    linkedList.removeWithValue(LLNode<int >(8));
+    linkedList.removeWithValue(NodeZero<int >(5));
+    linkedList.removeWithValue(NodeZero<int >(5));
+    linkedList.removeWithValue(NodeZero<int >(8));
     */
 
 
     //doublyLinkedList.print();
-    doublyLinkedList.reverse();
-    doublyLinkedList.print();
+    //doublyLinkedList.reverse();
+    //doublyLinkedList.print();
 
+    Stack<int> stack = Stack<int>();
+    stack.push(5);
+    stack.push(4);
+    stack.push(3);
+    stack.push(2);
+    stack.push(1);
+    stack.pop();
+    stack.pop();
+    stack.pop();
+    stack.pop();
+    stack.pop();
+    stack.pop();
 
+    stack.print();
     return 0;
 }

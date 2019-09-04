@@ -2,10 +2,10 @@
 // Created by Kubilay Karapinar on 03.09.19.
 //
 
-#include "DLLNode.h"
+#include "NodeOne.h"
 
 template<class T>
-DLLNode<T>::DLLNode(T data) {
+NodeOne<T>::NodeOne(T data) {
     this->data = data;
     this->next = nullptr;
     this->prev = nullptr;
@@ -13,33 +13,33 @@ DLLNode<T>::DLLNode(T data) {
 }
 
 template<class T>
-DLLNode<T>::DLLNode(DLLNode<T> const &node) {
+NodeOne<T>::NodeOne(NodeOne<T> const &node) {
     this->data = node.data;
     this->next = node.next;
     this->prev = node.prev;
 }
 
 template<class T>
-void DLLNode<T>::setNext(DLLNode *node) {
+void NodeOne<T>::setNext(NodeOne *node) {
     this->next = node;
 }
 
 template<class T>
-void DLLNode<T>::setPrev(DLLNode *node) {
+void NodeOne<T>::setPrev(NodeOne *node) {
     this->prev = node;
 }
 
 template<class T>
-DLLNode<T> *DLLNode<T>::getNext() {
+NodeOne<T> *NodeOne<T>::getNext() {
     return this->next;
 }
 
 template<class T>
-DLLNode<T> *DLLNode<T>::getPrev() {
+NodeOne<T> *NodeOne<T>::getPrev() {
     return this->prev;
 }
 
 template<class T>
-T DLLNode<T>::getData() {
+T NodeOne<T>::getData() {
     return this->data;
 }

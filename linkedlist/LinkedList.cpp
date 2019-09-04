@@ -15,7 +15,7 @@ LinkedList<T>::LinkedList() {
 
 template<class T>
 void LinkedList<T>::insertEnd(T elem) {
-    LLNode<T> *tmp = new LLNode<T>(elem);
+    NodeZero<T> *tmp = new NodeZero<T>(elem);
     if (this->head == nullptr) {
         this->head = tmp;
         this->tail = tmp;
@@ -28,7 +28,7 @@ void LinkedList<T>::insertEnd(T elem) {
 
 template<class T>
 void LinkedList<T>::insertBeg(T elem) {
-    LLNode<T> *tmp = new LLNode<T>(elem);
+    NodeZero<T> *tmp = new NodeZero<T>(elem);
     if (this->head == nullptr) {
         this->head = tmp;
         this->tail = tmp;
@@ -42,12 +42,12 @@ void LinkedList<T>::insertBeg(T elem) {
 
 template<class T>
 void LinkedList<T>::removeWithValue(T elem) {
-    LLNode<T> *current = this->head;
-    LLNode<T> *prev = nullptr;
+    NodeZero<T> *current = this->head;
+    NodeZero<T> *prev = nullptr;
     while (current != nullptr) {
 
         if (current->getData() == elem) {
-            LLNode<T> *temp = current;
+            NodeZero<T> *temp = current;
             if (prev == nullptr) {
                 this->head = this->head->getNext();
                 current = this->head;
@@ -68,8 +68,8 @@ void LinkedList<T>::removeWithValue(T elem) {
 template<class T>
 void LinkedList<T>::removeWithIndex(int index) {
     if (index < this->size) {
-        LLNode<T> *current = this->head;
-        LLNode<T> *prev = nullptr;
+        NodeZero<T> *current = this->head;
+        NodeZero<T> *prev = nullptr;
 
         for (int i = 0; i < index; i++) {
             prev = current;
@@ -92,7 +92,7 @@ void LinkedList<T>::removeWithIndex(int index) {
 
 template<class T>
 void LinkedList<T>::print() {
-    LLNode<T> *current = this->head;
+    NodeZero<T> *current = this->head;
     while (current != nullptr) {
         std::cout << "Value: " << current->getData() << std::endl;
         current = current->getNext();
@@ -105,7 +105,7 @@ void LinkedList<T>::printTraverse() {
 }
 
 template<class T>
-void LinkedList<T>::printTraverse(LLNode<T> *node) {
+void LinkedList<T>::printTraverse(NodeZero<T> *node) {
     if (node != nullptr) {
         printTraverse(node->getNext());
         std::cout << "Value: " << node->getData() << std::endl;
@@ -116,13 +116,13 @@ template<class T>
 void LinkedList<T>::reverse() {
     reverse(this->head);
     this->head->setNext(nullptr);
-    LLNode<T> *tmp = this->head;
+    NodeZero<T> *tmp = this->head;
     this->head = this->tail;
     this->tail = tmp;
 }
 
 template<class T>
-void LinkedList<T>::reverse(LLNode<T> *node) {
+void LinkedList<T>::reverse(NodeZero<T> *node) {
     if (node->getNext() != nullptr) {
         reverse(node->getNext());
         node->getNext()->setNext(node);
@@ -130,12 +130,12 @@ void LinkedList<T>::reverse(LLNode<T> *node) {
 }
 
 template<class T>
-LLNode<T> *LinkedList<T>::getHead() {
+NodeZero<T> *LinkedList<T>::getHead() {
     return this->head;
 }
 
 template<class T>
-LLNode<T> *LinkedList<T>::getTail() {
+NodeZero<T> *LinkedList<T>::getTail() {
     return this->tail;
 }
 
@@ -146,7 +146,7 @@ int LinkedList<T>::getSize() {
 
 template<class T>
 void LinkedList<T>::replaceWithValue(T elem, T elemReplace) {
-    LLNode<T> *current = this->head;
+    NodeZero<T> *current = this->head;
     while (current != nullptr) {
         if (current->getData() == elem) {
             current->setData(elemReplace);
@@ -159,7 +159,7 @@ void LinkedList<T>::replaceWithValue(T elem, T elemReplace) {
 template<class T>
 void LinkedList<T>::replaceWithIndex(int index, T elemReplace) {
     if (index < this->size) {
-        LLNode<T> *current = this->head;
+        NodeZero<T> *current = this->head;
         for (int i = 0; i < index; i++) {
             current = current->getNext();
         }
@@ -172,19 +172,19 @@ void LinkedList<T>::replaceWithIndex(int index, T elemReplace) {
 
 template<class T>
 LinkedList<T>::~LinkedList() {
-    LLNode<T> *current = this->head;
+    NodeZero<T> *current = this->head;
 
     while (current != nullptr) {
-        LLNode<T> *next = current->getNext();
+        NodeZero<T> *next = current->getNext();
         delete current;
         current = next;
     }
 }
 
 template<class T>
-LLNode<T> *LinkedList<T>::getNode(int index) {
+NodeZero<T> *LinkedList<T>::getNode(int index) {
     if (index < this->size) {
-        LLNode<T> *current = this->head;
+        NodeZero<T> *current = this->head;
         for (int i = 0; i < index; i++) {
             current = current->getNext();
         }

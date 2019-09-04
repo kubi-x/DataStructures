@@ -70,107 +70,92 @@ CMakeFiles/DataStructures.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kubilaykarapinar/CLionProjects/DataStructures/main.cpp -o CMakeFiles/DataStructures.dir/main.cpp.s
 
-CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.o: CMakeFiles/DataStructures.dir/flags.make
-CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.o: ../LinkedList/LinkedList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.o -c /Users/kubilaykarapinar/CLionProjects/DataStructures/LinkedList/LinkedList.cpp
+CMakeFiles/DataStructures.dir/nodes/NodeOne.cpp.o: CMakeFiles/DataStructures.dir/flags.make
+CMakeFiles/DataStructures.dir/nodes/NodeOne.cpp.o: ../nodes/NodeOne.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DataStructures.dir/nodes/NodeOne.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DataStructures.dir/nodes/NodeOne.cpp.o -c /Users/kubilaykarapinar/CLionProjects/DataStructures/nodes/NodeOne.cpp
 
-CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kubilaykarapinar/CLionProjects/DataStructures/LinkedList/LinkedList.cpp > CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.i
+CMakeFiles/DataStructures.dir/nodes/NodeOne.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructures.dir/nodes/NodeOne.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kubilaykarapinar/CLionProjects/DataStructures/nodes/NodeOne.cpp > CMakeFiles/DataStructures.dir/nodes/NodeOne.cpp.i
 
-CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kubilaykarapinar/CLionProjects/DataStructures/LinkedList/LinkedList.cpp -o CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.s
+CMakeFiles/DataStructures.dir/nodes/NodeOne.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/nodes/NodeOne.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kubilaykarapinar/CLionProjects/DataStructures/nodes/NodeOne.cpp -o CMakeFiles/DataStructures.dir/nodes/NodeOne.cpp.s
 
-CMakeFiles/DataStructures.dir/LinkedList/LLNode.cpp.o: CMakeFiles/DataStructures.dir/flags.make
-CMakeFiles/DataStructures.dir/LinkedList/LLNode.cpp.o: ../LinkedList/LLNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DataStructures.dir/LinkedList/LLNode.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DataStructures.dir/LinkedList/LLNode.cpp.o -c /Users/kubilaykarapinar/CLionProjects/DataStructures/LinkedList/LLNode.cpp
+CMakeFiles/DataStructures.dir/linkedlist/LinkedList.cpp.o: CMakeFiles/DataStructures.dir/flags.make
+CMakeFiles/DataStructures.dir/linkedlist/LinkedList.cpp.o: ../linkedlist/LinkedList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DataStructures.dir/linkedlist/LinkedList.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DataStructures.dir/linkedlist/LinkedList.cpp.o -c /Users/kubilaykarapinar/CLionProjects/DataStructures/linkedlist/LinkedList.cpp
 
-CMakeFiles/DataStructures.dir/LinkedList/LLNode.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructures.dir/LinkedList/LLNode.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kubilaykarapinar/CLionProjects/DataStructures/LinkedList/LLNode.cpp > CMakeFiles/DataStructures.dir/LinkedList/LLNode.cpp.i
+CMakeFiles/DataStructures.dir/linkedlist/LinkedList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructures.dir/linkedlist/LinkedList.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kubilaykarapinar/CLionProjects/DataStructures/linkedlist/LinkedList.cpp > CMakeFiles/DataStructures.dir/linkedlist/LinkedList.cpp.i
 
-CMakeFiles/DataStructures.dir/LinkedList/LLNode.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/LinkedList/LLNode.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kubilaykarapinar/CLionProjects/DataStructures/LinkedList/LLNode.cpp -o CMakeFiles/DataStructures.dir/LinkedList/LLNode.cpp.s
+CMakeFiles/DataStructures.dir/linkedlist/LinkedList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/linkedlist/LinkedList.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kubilaykarapinar/CLionProjects/DataStructures/linkedlist/LinkedList.cpp -o CMakeFiles/DataStructures.dir/linkedlist/LinkedList.cpp.s
 
-CMakeFiles/DataStructures.dir/DoublyLinkedList/DoublyLinkedList.cpp.o: CMakeFiles/DataStructures.dir/flags.make
-CMakeFiles/DataStructures.dir/DoublyLinkedList/DoublyLinkedList.cpp.o: ../DoublyLinkedList/DoublyLinkedList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DataStructures.dir/DoublyLinkedList/DoublyLinkedList.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DataStructures.dir/DoublyLinkedList/DoublyLinkedList.cpp.o -c /Users/kubilaykarapinar/CLionProjects/DataStructures/DoublyLinkedList/DoublyLinkedList.cpp
+CMakeFiles/DataStructures.dir/doublylinkedlist/DoublyLinkedList.cpp.o: CMakeFiles/DataStructures.dir/flags.make
+CMakeFiles/DataStructures.dir/doublylinkedlist/DoublyLinkedList.cpp.o: ../doublylinkedlist/DoublyLinkedList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DataStructures.dir/doublylinkedlist/DoublyLinkedList.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DataStructures.dir/doublylinkedlist/DoublyLinkedList.cpp.o -c /Users/kubilaykarapinar/CLionProjects/DataStructures/doublylinkedlist/DoublyLinkedList.cpp
 
-CMakeFiles/DataStructures.dir/DoublyLinkedList/DoublyLinkedList.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructures.dir/DoublyLinkedList/DoublyLinkedList.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kubilaykarapinar/CLionProjects/DataStructures/DoublyLinkedList/DoublyLinkedList.cpp > CMakeFiles/DataStructures.dir/DoublyLinkedList/DoublyLinkedList.cpp.i
+CMakeFiles/DataStructures.dir/doublylinkedlist/DoublyLinkedList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructures.dir/doublylinkedlist/DoublyLinkedList.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kubilaykarapinar/CLionProjects/DataStructures/doublylinkedlist/DoublyLinkedList.cpp > CMakeFiles/DataStructures.dir/doublylinkedlist/DoublyLinkedList.cpp.i
 
-CMakeFiles/DataStructures.dir/DoublyLinkedList/DoublyLinkedList.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/DoublyLinkedList/DoublyLinkedList.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kubilaykarapinar/CLionProjects/DataStructures/DoublyLinkedList/DoublyLinkedList.cpp -o CMakeFiles/DataStructures.dir/DoublyLinkedList/DoublyLinkedList.cpp.s
+CMakeFiles/DataStructures.dir/doublylinkedlist/DoublyLinkedList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/doublylinkedlist/DoublyLinkedList.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kubilaykarapinar/CLionProjects/DataStructures/doublylinkedlist/DoublyLinkedList.cpp -o CMakeFiles/DataStructures.dir/doublylinkedlist/DoublyLinkedList.cpp.s
 
-CMakeFiles/DataStructures.dir/DoublyLinkedList/DLLNode.cpp.o: CMakeFiles/DataStructures.dir/flags.make
-CMakeFiles/DataStructures.dir/DoublyLinkedList/DLLNode.cpp.o: ../DoublyLinkedList/DLLNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DataStructures.dir/DoublyLinkedList/DLLNode.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DataStructures.dir/DoublyLinkedList/DLLNode.cpp.o -c /Users/kubilaykarapinar/CLionProjects/DataStructures/DoublyLinkedList/DLLNode.cpp
+CMakeFiles/DataStructures.dir/stack/Stack.cpp.o: CMakeFiles/DataStructures.dir/flags.make
+CMakeFiles/DataStructures.dir/stack/Stack.cpp.o: ../stack/Stack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DataStructures.dir/stack/Stack.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DataStructures.dir/stack/Stack.cpp.o -c /Users/kubilaykarapinar/CLionProjects/DataStructures/stack/Stack.cpp
 
-CMakeFiles/DataStructures.dir/DoublyLinkedList/DLLNode.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructures.dir/DoublyLinkedList/DLLNode.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kubilaykarapinar/CLionProjects/DataStructures/DoublyLinkedList/DLLNode.cpp > CMakeFiles/DataStructures.dir/DoublyLinkedList/DLLNode.cpp.i
+CMakeFiles/DataStructures.dir/stack/Stack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructures.dir/stack/Stack.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kubilaykarapinar/CLionProjects/DataStructures/stack/Stack.cpp > CMakeFiles/DataStructures.dir/stack/Stack.cpp.i
 
-CMakeFiles/DataStructures.dir/DoublyLinkedList/DLLNode.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/DoublyLinkedList/DLLNode.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kubilaykarapinar/CLionProjects/DataStructures/DoublyLinkedList/DLLNode.cpp -o CMakeFiles/DataStructures.dir/DoublyLinkedList/DLLNode.cpp.s
+CMakeFiles/DataStructures.dir/stack/Stack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/stack/Stack.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kubilaykarapinar/CLionProjects/DataStructures/stack/Stack.cpp -o CMakeFiles/DataStructures.dir/stack/Stack.cpp.s
 
-CMakeFiles/DataStructures.dir/Stack/Stack.cpp.o: CMakeFiles/DataStructures.dir/flags.make
-CMakeFiles/DataStructures.dir/Stack/Stack.cpp.o: ../Stack/Stack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/DataStructures.dir/Stack/Stack.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DataStructures.dir/Stack/Stack.cpp.o -c /Users/kubilaykarapinar/CLionProjects/DataStructures/Stack/Stack.cpp
+CMakeFiles/DataStructures.dir/queue/Queue.cpp.o: CMakeFiles/DataStructures.dir/flags.make
+CMakeFiles/DataStructures.dir/queue/Queue.cpp.o: ../queue/Queue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/DataStructures.dir/queue/Queue.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DataStructures.dir/queue/Queue.cpp.o -c /Users/kubilaykarapinar/CLionProjects/DataStructures/queue/Queue.cpp
 
-CMakeFiles/DataStructures.dir/Stack/Stack.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructures.dir/Stack/Stack.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kubilaykarapinar/CLionProjects/DataStructures/Stack/Stack.cpp > CMakeFiles/DataStructures.dir/Stack/Stack.cpp.i
+CMakeFiles/DataStructures.dir/queue/Queue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructures.dir/queue/Queue.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kubilaykarapinar/CLionProjects/DataStructures/queue/Queue.cpp > CMakeFiles/DataStructures.dir/queue/Queue.cpp.i
 
-CMakeFiles/DataStructures.dir/Stack/Stack.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/Stack/Stack.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kubilaykarapinar/CLionProjects/DataStructures/Stack/Stack.cpp -o CMakeFiles/DataStructures.dir/Stack/Stack.cpp.s
-
-CMakeFiles/DataStructures.dir/Stack/SNode.cpp.o: CMakeFiles/DataStructures.dir/flags.make
-CMakeFiles/DataStructures.dir/Stack/SNode.cpp.o: ../Stack/SNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/DataStructures.dir/Stack/SNode.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DataStructures.dir/Stack/SNode.cpp.o -c /Users/kubilaykarapinar/CLionProjects/DataStructures/Stack/SNode.cpp
-
-CMakeFiles/DataStructures.dir/Stack/SNode.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructures.dir/Stack/SNode.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kubilaykarapinar/CLionProjects/DataStructures/Stack/SNode.cpp > CMakeFiles/DataStructures.dir/Stack/SNode.cpp.i
-
-CMakeFiles/DataStructures.dir/Stack/SNode.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/Stack/SNode.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kubilaykarapinar/CLionProjects/DataStructures/Stack/SNode.cpp -o CMakeFiles/DataStructures.dir/Stack/SNode.cpp.s
+CMakeFiles/DataStructures.dir/queue/Queue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/queue/Queue.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kubilaykarapinar/CLionProjects/DataStructures/queue/Queue.cpp -o CMakeFiles/DataStructures.dir/queue/Queue.cpp.s
 
 # Object files for target DataStructures
 DataStructures_OBJECTS = \
 "CMakeFiles/DataStructures.dir/main.cpp.o" \
-"CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.o" \
-"CMakeFiles/DataStructures.dir/LinkedList/LLNode.cpp.o" \
-"CMakeFiles/DataStructures.dir/DoublyLinkedList/DoublyLinkedList.cpp.o" \
-"CMakeFiles/DataStructures.dir/DoublyLinkedList/DLLNode.cpp.o" \
-"CMakeFiles/DataStructures.dir/Stack/Stack.cpp.o" \
-"CMakeFiles/DataStructures.dir/Stack/SNode.cpp.o"
+"CMakeFiles/DataStructures.dir/nodes/NodeOne.cpp.o" \
+"CMakeFiles/DataStructures.dir/linkedlist/LinkedList.cpp.o" \
+"CMakeFiles/DataStructures.dir/doublylinkedlist/DoublyLinkedList.cpp.o" \
+"CMakeFiles/DataStructures.dir/stack/Stack.cpp.o" \
+"CMakeFiles/DataStructures.dir/queue/Queue.cpp.o"
 
 # External object files for target DataStructures
 DataStructures_EXTERNAL_OBJECTS =
 
 DataStructures: CMakeFiles/DataStructures.dir/main.cpp.o
-DataStructures: CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.o
-DataStructures: CMakeFiles/DataStructures.dir/LinkedList/LLNode.cpp.o
-DataStructures: CMakeFiles/DataStructures.dir/DoublyLinkedList/DoublyLinkedList.cpp.o
-DataStructures: CMakeFiles/DataStructures.dir/DoublyLinkedList/DLLNode.cpp.o
-DataStructures: CMakeFiles/DataStructures.dir/Stack/Stack.cpp.o
-DataStructures: CMakeFiles/DataStructures.dir/Stack/SNode.cpp.o
+DataStructures: CMakeFiles/DataStructures.dir/nodes/NodeOne.cpp.o
+DataStructures: CMakeFiles/DataStructures.dir/linkedlist/LinkedList.cpp.o
+DataStructures: CMakeFiles/DataStructures.dir/doublylinkedlist/DoublyLinkedList.cpp.o
+DataStructures: CMakeFiles/DataStructures.dir/stack/Stack.cpp.o
+DataStructures: CMakeFiles/DataStructures.dir/queue/Queue.cpp.o
 DataStructures: CMakeFiles/DataStructures.dir/build.make
 DataStructures: CMakeFiles/DataStructures.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable DataStructures"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable DataStructures"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DataStructures.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

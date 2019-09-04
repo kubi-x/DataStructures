@@ -4,13 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/kubilaykarapinar/CLionProjects/DataStructures/DoublyLinkedList/DLLNode.cpp" "/Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/DoublyLinkedList/DLLNode.cpp.o"
-  "/Users/kubilaykarapinar/CLionProjects/DataStructures/DoublyLinkedList/DoublyLinkedList.cpp" "/Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/DoublyLinkedList/DoublyLinkedList.cpp.o"
-  "/Users/kubilaykarapinar/CLionProjects/DataStructures/LinkedList/LLNode.cpp" "/Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/LinkedList/LLNode.cpp.o"
-  "/Users/kubilaykarapinar/CLionProjects/DataStructures/LinkedList/LinkedList.cpp" "/Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.o"
-  "/Users/kubilaykarapinar/CLionProjects/DataStructures/Stack/SNode.cpp" "/Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/Stack/SNode.cpp.o"
-  "/Users/kubilaykarapinar/CLionProjects/DataStructures/Stack/Stack.cpp" "/Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/Stack/Stack.cpp.o"
+  "/Users/kubilaykarapinar/CLionProjects/DataStructures/doublylinkedlist/DoublyLinkedList.cpp" "/Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/doublylinkedlist/DoublyLinkedList.cpp.o"
+  "/Users/kubilaykarapinar/CLionProjects/DataStructures/linkedlist/LinkedList.cpp" "/Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/linkedlist/LinkedList.cpp.o"
   "/Users/kubilaykarapinar/CLionProjects/DataStructures/main.cpp" "/Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/main.cpp.o"
+  "/Users/kubilaykarapinar/CLionProjects/DataStructures/nodes/NodeOne.cpp" "/Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/nodes/NodeOne.cpp.o"
+  "/Users/kubilaykarapinar/CLionProjects/DataStructures/queue/Queue.cpp" "/Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/queue/Queue.cpp.o"
+  "/Users/kubilaykarapinar/CLionProjects/DataStructures/stack/Stack.cpp" "/Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/stack/Stack.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
