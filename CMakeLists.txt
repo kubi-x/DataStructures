@@ -11,6 +11,6 @@ add_executable(DataStructures main.cpp
         linkedlist/LinkedList.h linkedlist/LinkedList.cpp
         doublylinkedlist/DoublyLinkedList.cpp doublylinkedlist/DoublyLinkedList.h
         stack/Stack.cpp stack/Stack.h
-        queue/Queue.cpp queue/Queue.h)
+        queue/Queue.cpp queue/Queue.h binaryheap/BinaryHeapArrayImp.cpp binaryheap/BinaryHeapArrayImp.h binaryheap/BinaryHeapTreeImp.cpp binaryheap/BinaryHeapTreeImp.h binaryheap/BinaryHeap.cpp binaryheap/BinaryHeap.h)
 
 

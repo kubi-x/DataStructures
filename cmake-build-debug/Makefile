@@ -123,6 +123,87 @@ DataStructures/fast:
 	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/build
 .PHONY : DataStructures/fast
 
+binaryheap/BinaryHeap.o: binaryheap/BinaryHeap.cpp.o
+
+.PHONY : binaryheap/BinaryHeap.o
+
+# target to build an object file
+binaryheap/BinaryHeap.cpp.o:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/binaryheap/BinaryHeap.cpp.o
+.PHONY : binaryheap/BinaryHeap.cpp.o
+
+binaryheap/BinaryHeap.i: binaryheap/BinaryHeap.cpp.i
+
+.PHONY : binaryheap/BinaryHeap.i
+
+# target to preprocess a source file
+binaryheap/BinaryHeap.cpp.i:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/binaryheap/BinaryHeap.cpp.i
+.PHONY : binaryheap/BinaryHeap.cpp.i
+
+binaryheap/BinaryHeap.s: binaryheap/BinaryHeap.cpp.s
+
+.PHONY : binaryheap/BinaryHeap.s
+
+# target to generate assembly for a file
+binaryheap/BinaryHeap.cpp.s:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/binaryheap/BinaryHeap.cpp.s
+.PHONY : binaryheap/BinaryHeap.cpp.s
+
+binaryheap/BinaryHeapArrayImp.o: binaryheap/BinaryHeapArrayImp.cpp.o
+
+.PHONY : binaryheap/BinaryHeapArrayImp.o
+
+# target to build an object file
+binaryheap/BinaryHeapArrayImp.cpp.o:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/binaryheap/BinaryHeapArrayImp.cpp.o
+.PHONY : binaryheap/BinaryHeapArrayImp.cpp.o
+
+binaryheap/BinaryHeapArrayImp.i: binaryheap/BinaryHeapArrayImp.cpp.i
+
+.PHONY : binaryheap/BinaryHeapArrayImp.i
+
+# target to preprocess a source file
+binaryheap/BinaryHeapArrayImp.cpp.i:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/binaryheap/BinaryHeapArrayImp.cpp.i
+.PHONY : binaryheap/BinaryHeapArrayImp.cpp.i
+
+binaryheap/BinaryHeapArrayImp.s: binaryheap/BinaryHeapArrayImp.cpp.s
+
+.PHONY : binaryheap/BinaryHeapArrayImp.s
+
+# target to generate assembly for a file
+binaryheap/BinaryHeapArrayImp.cpp.s:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/binaryheap/BinaryHeapArrayImp.cpp.s
+.PHONY : binaryheap/BinaryHeapArrayImp.cpp.s
+
+binaryheap/BinaryHeapTreeImp.o: binaryheap/BinaryHeapTreeImp.cpp.o
+
+.PHONY : binaryheap/BinaryHeapTreeImp.o
+
+# target to build an object file
+binaryheap/BinaryHeapTreeImp.cpp.o:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/binaryheap/BinaryHeapTreeImp.cpp.o
+.PHONY : binaryheap/BinaryHeapTreeImp.cpp.o
+
+binaryheap/BinaryHeapTreeImp.i: binaryheap/BinaryHeapTreeImp.cpp.i
+
+.PHONY : binaryheap/BinaryHeapTreeImp.i
+
+# target to preprocess a source file
+binaryheap/BinaryHeapTreeImp.cpp.i:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/binaryheap/BinaryHeapTreeImp.cpp.i
+.PHONY : binaryheap/BinaryHeapTreeImp.cpp.i
+
+binaryheap/BinaryHeapTreeImp.s: binaryheap/BinaryHeapTreeImp.cpp.s
+
+.PHONY : binaryheap/BinaryHeapTreeImp.s
+
+# target to generate assembly for a file
+binaryheap/BinaryHeapTreeImp.cpp.s:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/binaryheap/BinaryHeapTreeImp.cpp.s
+.PHONY : binaryheap/BinaryHeapTreeImp.cpp.s
+
 doublylinkedlist/DoublyLinkedList.o: doublylinkedlist/DoublyLinkedList.cpp.o
 
 .PHONY : doublylinkedlist/DoublyLinkedList.o
@@ -294,6 +375,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... DataStructures"
+	@echo "... binaryheap/BinaryHeap.o"
+	@echo "... binaryheap/BinaryHeap.i"
+	@echo "... binaryheap/BinaryHeap.s"
+	@echo "... binaryheap/BinaryHeapArrayImp.o"
+	@echo "... binaryheap/BinaryHeapArrayImp.i"
+	@echo "... binaryheap/BinaryHeapArrayImp.s"
+	@echo "... binaryheap/BinaryHeapTreeImp.o"
+	@echo "... binaryheap/BinaryHeapTreeImp.i"
+	@echo "... binaryheap/BinaryHeapTreeImp.s"
 	@echo "... doublylinkedlist/DoublyLinkedList.o"
 	@echo "... doublylinkedlist/DoublyLinkedList.i"
 	@echo "... doublylinkedlist/DoublyLinkedList.s"

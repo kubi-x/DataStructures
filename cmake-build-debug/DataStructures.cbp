@@ -80,6 +80,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/kubilaykarapinar/CLionProjects/DataStructures/binaryheap/BinaryHeap.cpp">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/kubilaykarapinar/CLionProjects/DataStructures/binaryheap/BinaryHeap.h">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/kubilaykarapinar/CLionProjects/DataStructures/binaryheap/BinaryHeapArrayImp.cpp">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/kubilaykarapinar/CLionProjects/DataStructures/binaryheap/BinaryHeapArrayImp.h">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/kubilaykarapinar/CLionProjects/DataStructures/binaryheap/BinaryHeapTreeImp.cpp">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/kubilaykarapinar/CLionProjects/DataStructures/binaryheap/BinaryHeapTreeImp.h">
+			<Option target="DataStructures"/>
+		</Unit>
 		<Unit filename="/Users/kubilaykarapinar/CLionProjects/DataStructures/doublylinkedlist/DoublyLinkedList.cpp">
 			<Option target="DataStructures"/>
 		</Unit>

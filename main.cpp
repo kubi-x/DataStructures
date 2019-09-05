@@ -11,6 +11,8 @@
 #include "stack/Stack.cpp"
 #include "queue/Queue.h"
 #include "queue/Queue.cpp"
+#include "binaryheap/BinaryHeapArrayImp.h"
+#include "binaryheap/BinaryHeapArrayImp.cpp"
 
 int main() {
 
@@ -82,6 +84,43 @@ int main() {
     queue.push(4);
 
     int x = queue.pop()->getData();
+
+    BinaryHeapArrayImp<int> binaryHeapArrayImp = BinaryHeapArrayImp<int>(100);
+    /*
+    binaryHeapArrayImp.push(5);
+    std::cout << binaryHeapArrayImp.getTop() << " " << binaryHeapArrayImp.getSize() << std::endl;
+    binaryHeapArrayImp.push(4);
+    std::cout << binaryHeapArrayImp.getTop() << " " << binaryHeapArrayImp.getSize() << std::endl;
+    binaryHeapArrayImp.push(6);
+    std::cout << binaryHeapArrayImp.getTop() << " " << binaryHeapArrayImp.getSize() << std::endl;
+    binaryHeapArrayImp.push(3);
+    std::cout << binaryHeapArrayImp.getTop() << " " << binaryHeapArrayImp.getSize() << std::endl;
+    binaryHeapArrayImp.push(3);
+    std::cout << binaryHeapArrayImp.getTop() << " " << binaryHeapArrayImp.getSize() << std::endl;
+    binaryHeapArrayImp.push(3);
+    std::cout << binaryHeapArrayImp.getTop() << " " << binaryHeapArrayImp.getSize() << std::endl;
+    binaryHeapArrayImp.push(3);
+    std::cout << binaryHeapArrayImp.getTop() << " " << binaryHeapArrayImp.getSize() << std::endl;
+    binaryHeapArrayImp.push(3);
+    std::cout << binaryHeapArrayImp.getTop() << " " << binaryHeapArrayImp.getSize() << std::endl;
+    binaryHeapArrayImp.push(1);
+    std::cout << binaryHeapArrayImp.getTop() << " " << binaryHeapArrayImp.getSize() << std::endl;
+    binaryHeapArrayImp.push(5);
+    std::cout << binaryHeapArrayImp.getTop() << " " << binaryHeapArrayImp.getSize() << std::endl;
+    binaryHeapArrayImp.push(5);
+    std::cout << binaryHeapArrayImp.getTop() << " " << binaryHeapArrayImp.getSize() << std::endl;
+    binaryHeapArrayImp.push(5);
+    std::cout << binaryHeapArrayImp.getTop() << " " << binaryHeapArrayImp.getSize() << std::endl;
+    binaryHeapArrayImp.push(5);
+
+    std::cout << binaryHeapArrayImp.getTop() << " " << binaryHeapArrayImp.getSize() << std::endl;
+    binaryHeapArrayImp.pop();
+    std::cout << binaryHeapArrayImp.getTop() << " " << binaryHeapArrayImp.getSize() << std::endl;
+    binaryHeapArrayImp.pop();
+    std::cout << binaryHeapArrayImp.getTop() << " " << binaryHeapArrayImp.getSize() << std::endl;
+    binaryHeapArrayImp.pop();
+    std::cout << binaryHeapArrayImp.getTop() << " " << binaryHeapArrayImp.getSize() << std::endl;
+    */
 
 
     return 0;

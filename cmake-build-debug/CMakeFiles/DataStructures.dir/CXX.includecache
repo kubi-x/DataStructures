@@ -6,6 +6,20 @@
 
 #IncludeRegexTransform: 
 
+/Users/kubilaykarapinar/CLionProjects/DataStructures/binaryheap/BinaryHeap.h
+
+/Users/kubilaykarapinar/CLionProjects/DataStructures/binaryheap/BinaryHeapArrayImp.cpp
+vector
+-
+BinaryHeapArrayImp.h
+/Users/kubilaykarapinar/CLionProjects/DataStructures/binaryheap/BinaryHeapArrayImp.h
+
+/Users/kubilaykarapinar/CLionProjects/DataStructures/binaryheap/BinaryHeapArrayImp.h
+vector
+-
+BinaryHeap.h
+/Users/kubilaykarapinar/CLionProjects/DataStructures/binaryheap/BinaryHeap.h
+
 /Users/kubilaykarapinar/CLionProjects/DataStructures/doublylinkedlist/DoublyLinkedList.cpp
 iostream
 -
@@ -55,6 +69,10 @@ queue/Queue.h
 /Users/kubilaykarapinar/CLionProjects/DataStructures/queue/Queue.h
 queue/Queue.cpp
 /Users/kubilaykarapinar/CLionProjects/DataStructures/queue/Queue.cpp
+binaryheap/BinaryHeapArrayImp.h
+/Users/kubilaykarapinar/CLionProjects/DataStructures/binaryheap/BinaryHeapArrayImp.h
+binaryheap/BinaryHeapArrayImp.cpp
+/Users/kubilaykarapinar/CLionProjects/DataStructures/binaryheap/BinaryHeapArrayImp.cpp
 
 /Users/kubilaykarapinar/CLionProjects/DataStructures/nodes/NodeOne.cpp
 NodeOne.h

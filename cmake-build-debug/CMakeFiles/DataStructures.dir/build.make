@@ -135,6 +135,45 @@ CMakeFiles/DataStructures.dir/queue/Queue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/queue/Queue.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kubilaykarapinar/CLionProjects/DataStructures/queue/Queue.cpp -o CMakeFiles/DataStructures.dir/queue/Queue.cpp.s
 
+CMakeFiles/DataStructures.dir/binaryheap/BinaryHeapArrayImp.cpp.o: CMakeFiles/DataStructures.dir/flags.make
+CMakeFiles/DataStructures.dir/binaryheap/BinaryHeapArrayImp.cpp.o: ../binaryheap/BinaryHeapArrayImp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/DataStructures.dir/binaryheap/BinaryHeapArrayImp.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DataStructures.dir/binaryheap/BinaryHeapArrayImp.cpp.o -c /Users/kubilaykarapinar/CLionProjects/DataStructures/binaryheap/BinaryHeapArrayImp.cpp
+
+CMakeFiles/DataStructures.dir/binaryheap/BinaryHeapArrayImp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructures.dir/binaryheap/BinaryHeapArrayImp.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kubilaykarapinar/CLionProjects/DataStructures/binaryheap/BinaryHeapArrayImp.cpp > CMakeFiles/DataStructures.dir/binaryheap/BinaryHeapArrayImp.cpp.i
+
+CMakeFiles/DataStructures.dir/binaryheap/BinaryHeapArrayImp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/binaryheap/BinaryHeapArrayImp.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kubilaykarapinar/CLionProjects/DataStructures/binaryheap/BinaryHeapArrayImp.cpp -o CMakeFiles/DataStructures.dir/binaryheap/BinaryHeapArrayImp.cpp.s
+
+CMakeFiles/DataStructures.dir/binaryheap/BinaryHeapTreeImp.cpp.o: CMakeFiles/DataStructures.dir/flags.make
+CMakeFiles/DataStructures.dir/binaryheap/BinaryHeapTreeImp.cpp.o: ../binaryheap/BinaryHeapTreeImp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/DataStructures.dir/binaryheap/BinaryHeapTreeImp.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DataStructures.dir/binaryheap/BinaryHeapTreeImp.cpp.o -c /Users/kubilaykarapinar/CLionProjects/DataStructures/binaryheap/BinaryHeapTreeImp.cpp
+
+CMakeFiles/DataStructures.dir/binaryheap/BinaryHeapTreeImp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructures.dir/binaryheap/BinaryHeapTreeImp.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kubilaykarapinar/CLionProjects/DataStructures/binaryheap/BinaryHeapTreeImp.cpp > CMakeFiles/DataStructures.dir/binaryheap/BinaryHeapTreeImp.cpp.i
+
+CMakeFiles/DataStructures.dir/binaryheap/BinaryHeapTreeImp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/binaryheap/BinaryHeapTreeImp.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kubilaykarapinar/CLionProjects/DataStructures/binaryheap/BinaryHeapTreeImp.cpp -o CMakeFiles/DataStructures.dir/binaryheap/BinaryHeapTreeImp.cpp.s
+
+CMakeFiles/DataStructures.dir/binaryheap/BinaryHeap.cpp.o: CMakeFiles/DataStructures.dir/flags.make
+CMakeFiles/DataStructures.dir/binaryheap/BinaryHeap.cpp.o: ../binaryheap/BinaryHeap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/DataStructures.dir/binaryheap/BinaryHeap.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DataStructures.dir/binaryheap/BinaryHeap.cpp.o -c /Users/kubilaykarapinar/CLionProjects/DataStructures/binaryheap/BinaryHeap.cpp
+
+CMakeFiles/DataStructures.dir/binaryheap/BinaryHeap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructures.dir/binaryheap/BinaryHeap.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kubilaykarapinar/CLionProjects/DataStructures/binaryheap/BinaryHeap.cpp > CMakeFiles/DataStructures.dir/binaryheap/BinaryHeap.cpp.i
+
+CMakeFiles/DataStructures.dir/binaryheap/BinaryHeap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/binaryheap/BinaryHeap.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kubilaykarapinar/CLionProjects/DataStructures/binaryheap/BinaryHeap.cpp -o CMakeFiles/DataStructures.dir/binaryheap/BinaryHeap.cpp.s
+
 # Object files for target DataStructures
 DataStructures_OBJECTS = \
 "CMakeFiles/DataStructures.dir/main.cpp.o" \
@@ -142,7 +181,10 @@ DataStructures_OBJECTS = \
 "CMakeFiles/DataStructures.dir/linkedlist/LinkedList.cpp.o" \
 "CMakeFiles/DataStructures.dir/doublylinkedlist/DoublyLinkedList.cpp.o" \
 "CMakeFiles/DataStructures.dir/stack/Stack.cpp.o" \
-"CMakeFiles/DataStructures.dir/queue/Queue.cpp.o"
+"CMakeFiles/DataStructures.dir/queue/Queue.cpp.o" \
+"CMakeFiles/DataStructures.dir/binaryheap/BinaryHeapArrayImp.cpp.o" \
+"CMakeFiles/DataStructures.dir/binaryheap/BinaryHeapTreeImp.cpp.o" \
+"CMakeFiles/DataStructures.dir/binaryheap/BinaryHeap.cpp.o"
 
 # External object files for target DataStructures
 DataStructures_EXTERNAL_OBJECTS =
@@ -153,9 +195,12 @@ DataStructures: CMakeFiles/DataStructures.dir/linkedlist/LinkedList.cpp.o
 DataStructures: CMakeFiles/DataStructures.dir/doublylinkedlist/DoublyLinkedList.cpp.o
 DataStructures: CMakeFiles/DataStructures.dir/stack/Stack.cpp.o
 DataStructures: CMakeFiles/DataStructures.dir/queue/Queue.cpp.o
+DataStructures: CMakeFiles/DataStructures.dir/binaryheap/BinaryHeapArrayImp.cpp.o
+DataStructures: CMakeFiles/DataStructures.dir/binaryheap/BinaryHeapTreeImp.cpp.o
+DataStructures: CMakeFiles/DataStructures.dir/binaryheap/BinaryHeap.cpp.o
 DataStructures: CMakeFiles/DataStructures.dir/build.make
 DataStructures: CMakeFiles/DataStructures.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable DataStructures"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kubilaykarapinar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable DataStructures"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DataStructures.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
