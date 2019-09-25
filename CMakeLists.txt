@@ -1,16 +1,18 @@
 cmake_minimum_required(VERSION 3.14)
 project(DataStructures)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 11)
 
-#add_library(DataStructuresLib ${SOURCE_FILES})
+add_executable(DataStructures src/main.cpp
+        src/binaryheap/BinaryHeapArrayImp.h
+        src/binaryheap/BinaryHeapTreeImp.h
+        src/nodes/NodeTwo.h
+        src/nodes/NodeOne.h
+        src/nodes/NodeZero.h
+        src/linkedlist/LinkedList.h
+        src/doublylinkedlist/DoublyLinkedList.h
+        src/stack/Stack.h
+        src/queue/Queue.h)
 
-add_executable(DataStructures main.cpp
-        nodes/NodeOne.cpp nodes/NodeOne.h
-        nodes/NodeOne.cpp nodes/NodeOne.h
-        linkedlist/LinkedList.h linkedlist/LinkedList.cpp
-        doublylinkedlist/DoublyLinkedList.cpp doublylinkedlist/DoublyLinkedList.h
-        stack/Stack.cpp stack/Stack.h
-        queue/Queue.cpp queue/Queue.h binaryheap/BinaryHeapArrayImp.cpp binaryheap/BinaryHeapArrayImp.h binaryheap/BinaryHeapTreeImp.cpp binaryheap/BinaryHeapTreeImp.h binaryheap/BinaryHeap.cpp binaryheap/BinaryHeap.h)
 
 

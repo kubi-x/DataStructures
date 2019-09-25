@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libDataStructuresLib.a  CMakeFiles/DataStructuresLib.dir/LinkedList/LinkedList.cpp.o CMakeFiles/DataStructuresLib.dir/LinkedList/LLNode.cpp.o CMakeFiles/DataStructuresLib.dir/DoublyLinkedList/DoublyLinkedList.cpp.o CMakeFiles/DataStructuresLib.dir/DoublyLinkedList/DLLNode.cpp.o CMakeFiles/DataStructuresLib.dir/Stack/Stack.cpp.o CMakeFiles/DataStructuresLib.dir/Stack/SNode.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib libDataStructuresLib.a
